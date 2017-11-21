@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alphacsoft.animationbutton.LevelActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/header3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <include layout="@layout/menu_level"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical">
+        <Button
+            android:id="@+id/backLevel"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:background="@drawable/custom_button"
+            android:drawableTop="@drawable/ic_subdirectory_arrow_left_black_24dp"
+            android:text="back"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            android:paddingLeft="0dp"
+            android:paddingTop="10dp"/>
+    </LinearLayout>
+</LinearLayout>
